@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Set your target ECMAScript version
+    "module": "commonjs", // Specify module code generation
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // List of library files to be included in the compilation
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "jsx": "preserve", // Specify JSX code generation
+    "sourceMap": true, // Generate source maps for debugging
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enables interoperability between CommonJS and ES Modules
+    "skipLibCheck": true, // Skip type checking of all declaration files
+    "forceConsistentCasingInFileNames": true // Enforces consistent file casing in imports
+    ,
+    "noEmit": true,
+    "incremental": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "components/navbar.tsx", "components/hero.tsx"  ], // Specify files to be included in compilation
+  "exclude": [
+    "node_modules"
+  ] // Specify files to be excluded from compilation
+}

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background: radial-gradient(rgba(105,114,66), transparent),
+    linear-gradient(to left, rgba(105,114,66), rgba(255, 255, 0, 0) 0%),
+    linear-gradient(to bottom left, rgba(41,56,29), rgba(53,66,41));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-blend-mode: screen;
+}
+
+canvas {
+	position: absolute;
+	opacity: 0.05; /* adjust me! */
+	z-index: 9999;
+	pointer-events: none;
+	user-select: none;
+}
+
+.gradient-border {
+  border-top: 2px solid #122A06;
+  border-left: .2px solid #122A06;
+  border-right: .2px solid #122A06;
+}
+.border-white{
+  border: 2px solid #fff;
+}
+.justify-center{
+  justify-content: center;
+}
+.project1{
+  top:0px;
+}

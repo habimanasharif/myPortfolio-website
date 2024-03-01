@@ -1,8 +1,18 @@
+'use client'
 import React from 'react';
-import Navbar from '../components/navbar';
-import './globals.css'
+import styled,{ThemeProvider} from 'styled-components';
+import {theme,GlobalStyle} from '../styles'
+
+const StyledContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+`;
+const StyledMainContainer = styled.main`
+  counter-reset: section;
+`;
 export default function RootLayout({
-    children,
+    children
   }: {
     children: React.ReactNode
   }) {
@@ -10,8 +20,15 @@ export default function RootLayout({
     return (
       <html lang="en">
         <body >
-            <Navbar/>
+          <ThemeProvider theme={theme}>
+          <GlobalStyle />
+          <a className="skip-to-content" href="#content">
+            Skip to Content
+          </a>
+          <StyledContent>
             {children}
+            </StyledContent>
+            </ThemeProvider>
             </body>
       </html>
     )

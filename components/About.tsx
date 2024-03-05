@@ -125,7 +125,7 @@ const About = () => {
     sr?.reveal(revealContainer.current!!, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Php', 'Node.js', 'Laravel'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -137,27 +137,17 @@ const About = () => {
             <p>
               Hello! My name is Sharif and I enjoy creating computer software. My
               interest in software development started back in 2017 when I created my first helloworld!
-              program in c — and since then I have been trying to learn more and more  !
+              program in c — and since then I have been trying to learn more and more.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, and I’ve had the privilege of working at start-ups.
+              This journey has not only provided me with invaluable skills and insights but also allowed me to immerse myself in various aspects of development, making me a resilient and adept developer. My
+              main focus these days is Career Growth and Advancement .
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+            If you're looking for a web developer who's dedicated to delivering high-quality work and providing excellent customer service, please don't hesitate to contact me. Let's work together to bring your project to the next level!
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -172,7 +162,7 @@ const About = () => {
           <div className="wrapper">
             <Image
               className="img"
-              src="/../images/me.jpg"
+              src="/images/me.jpg"
               width={500}
               height={300}
               quality={95}

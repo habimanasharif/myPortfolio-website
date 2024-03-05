@@ -31,7 +31,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "components/navbar.tsx", "components/hero.tsx"  ], // Specify files to be included in compilation
+, "components/navbar.tsx", "components/hero.tsx", "utils/getJobs.js"  ], // Specify files to be included in compilation
   "exclude": [
     "node_modules"
   ] // Specify files to be excluded from compilation

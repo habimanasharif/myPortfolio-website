@@ -328,9 +328,11 @@ const GlobalStyle = createGlobalStyle`
           color: var(--green);
         }
       }
+      
     }
   }
 
+  
   blockquote {
     border-left-color: var(--green);
     border-left-style: solid;

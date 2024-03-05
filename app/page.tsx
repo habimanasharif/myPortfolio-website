@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Hero from "../components/hero";
 import About from "../components/About";
 import Jobs from "../components/jobs";
+import Featured from "../components/feature";
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -13,6 +14,7 @@ export default function Page() {
      <Hero/>
      <About/>
      <Jobs/>
+     <Featured/>
     </StyledMainContainer>
       
   }

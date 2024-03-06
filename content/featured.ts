@@ -1,4 +1,4 @@
-export const project=[
+export const featured=[
     {
         frontmatter:{
             title:'Leerecs',

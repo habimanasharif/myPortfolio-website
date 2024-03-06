@@ -5,6 +5,8 @@ import Hero from "../components/hero";
 import About from "../components/About";
 import Jobs from "../components/jobs";
 import Featured from "../components/feature";
+import Projects from "../components/projects";
+import Contact from "../components/contact";
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -15,6 +17,8 @@ export default function Page() {
      <About/>
      <Jobs/>
      <Featured/>
+     <Projects/>
+     <Contact/>
     </StyledMainContainer>
       
   }

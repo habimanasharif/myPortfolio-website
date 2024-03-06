@@ -6,7 +6,7 @@ import sr from '../utils/sr';
 import { config } from '../config/config';
 import { Icon } from './icons';
 import { usePrefersReducedMotion } from '../hooks';
-import { project } from '../content/projects';
+import {featured} from '../content/Featured';
  const {srConfig}=config
 const StyledProjectsGrid = styled.ul`
   ${({ theme }) => theme.mixins.resetList};
@@ -307,7 +307,7 @@ const StyledProject = styled.li`
 const Featured = () => {
   
 
-  const featuredProjects = project;
+  const featuredProjects = featured;
   const revealTitle = useRef(null);
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();

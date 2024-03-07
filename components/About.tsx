@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { config } from '../config/config';
 import sr from '../utils/sr';
 import { usePrefersReducedMotion } from '../hooks';
+
 const {srConfig}=config
 const StyledAboutSection = styled.section`
   max-width: 900px;

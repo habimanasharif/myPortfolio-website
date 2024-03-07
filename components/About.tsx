@@ -163,7 +163,7 @@ const About = () => {
           <div className="wrapper">
             <Image
               className="img"
-              src="/images/me.jpg"
+              src="/images/me.png"
               width={500}
               height={300}
               quality={95}

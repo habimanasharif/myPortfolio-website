@@ -6,7 +6,7 @@ import sr from '../utils/sr';
 import { config } from '../config/config';
 import { Icon } from './icons';
 import { usePrefersReducedMotion } from '../hooks';
-import {featured} from '../content/Featured';
+import { featured } from '../content/featured';
  const {srConfig}=config
 const StyledProjectsGrid = styled.ul`
   ${({ theme }) => theme.mixins.resetList};

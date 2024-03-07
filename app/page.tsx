@@ -7,12 +7,13 @@ import Jobs from "../components/jobs";
 import Featured from "../components/feature";
 import Projects from "../components/projects";
 import Contact from "../components/contact";
+import RootLayout from "./layout";
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
 `;
 export default function Page() {
-    return <StyledMainContainer className="fillHeight">
+    return<StyledMainContainer className="fillHeight">
      <Hero/>
      <About/>
      <Jobs/>

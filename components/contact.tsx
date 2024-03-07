@@ -46,6 +46,13 @@ const StyledContactSection = styled.section`
 const Contact = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
+  useEffect(()=>{
+    const head = document.querySelector('head');
+    const script = document.createElement('script');
+    script.setAttribute('src',  'https://assets.calendly.com/assets/external/widget.js');
+    script .setAttribute('async',true)
+    head.appendChild(script);
+  },[])
 
   useEffect(() => {
     if (prefersReducedMotion) {
@@ -65,11 +72,11 @@ const Contact = () => {
         Let's talk
       </p>
 
-      
-
-      
+<InlineWidget url="https://calendly.com/hdidiersharif/book-a-call?hide_event_type_details=1&hide_gdpr_banner=1"  styles={{
+  height: '500px',
+  marginTop:'5px'
+}}/>    
 <div>
-<InlineWidget url="https://calendly.com/hdidiersharif/book-a-call" />
 </div>
       
     </StyledContactSection>

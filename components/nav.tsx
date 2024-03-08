@@ -208,7 +208,7 @@ const Nav = ({ isHome }:any) => {
   );
 
   const ResumeLink = (
-    <a className="resume-button" href="https://drive.google.com/file/d/1P8cTrsHBmTHXBseaQ05OJ3J79IR-fTY2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
       Resume
     </a>
   );

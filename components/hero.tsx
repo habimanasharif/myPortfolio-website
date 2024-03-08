@@ -65,18 +65,16 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
- 
+      If you're looking for a web developer who's dedicated to delivering high-quality work and providing excellent customer service.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="#"
+      href="#contact"
       rel="noreferrer">
-      Hire Me
+      Let's talk
     </a>
   );
 

@@ -56,6 +56,12 @@ export default function RootLayout({
   }, [isLoading]);
     return (
       <html lang="en">
+        <head>
+        <title>Sharifdev</title>
+        <link rel="icon" href="/images/favicon.ico" />
+        <meta property="og:title" content="Sharif's portifolio" />
+        <meta property="og:description" content="This is my portfolio website to showcase my work and some of my skills and contacts" />
+        </head>
         <body >
           <ThemeProvider theme={theme}>
           <GlobalStyle />

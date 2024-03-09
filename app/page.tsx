@@ -28,7 +28,7 @@ const StyledMainContainer = styled.main`
 export default function Page() {
   useEffect(() => {
     // Initialize Google Analytics with your tracking ID
-    ReactGA.initialize('G-SBS20ZV1C4');
+    ReactGA.initialize('G-CPDJ8LHF0G');
   }, []);
   
 

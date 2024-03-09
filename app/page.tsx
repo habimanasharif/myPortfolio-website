@@ -1,8 +1,9 @@
 'use client'
-import React from "react"
+import React,{useEffect} from "react"
 import styled from "styled-components";
 import dynamic from "next/dynamic";
 import Hero from "../components/hero";
+import ReactGA from 'react-ga4';
 const About = dynamic(() => import('../components/About'), {
   ssr: false,
 })
@@ -25,6 +26,16 @@ const StyledMainContainer = styled.main`
   counter-reset: section;
 `;
 export default function Page() {
+  useEffect(() => {
+    // Initialize Google Analytics with your tracking ID
+    ReactGA.initialize('G-SBS20ZV1C4');
+  }, []);
+  
+
+  ReactGA.send({
+    hitType:"pageview",
+    page:window.location.pathname}
+  )
     return<StyledMainContainer className="fillHeight">
      <Hero/>
      <About/>

@@ -4,6 +4,7 @@ import styled from "styled-components";
 import dynamic from "next/dynamic";
 import Hero from "../components/hero";
 import ReactGA from 'react-ga4';
+import RecentBlogs from "../components/recentBlogs";
 const About = dynamic(() => import('../components/About'), {
   ssr: false,
 })
@@ -42,6 +43,7 @@ export default function Page() {
      <Jobs/> 
      <Featured/>
      <Projects/>
+     <RecentBlogs/>
       <Contact/>
     </StyledMainContainer>
       

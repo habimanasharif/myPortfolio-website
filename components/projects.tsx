@@ -1,6 +1,5 @@
 // @ts-nocheck
 import React, { useState, useEffect, useRef } from 'react';
-import Link from 'next/link';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { config} from '../config/config';

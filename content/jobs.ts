@@ -10,9 +10,10 @@
         },
         html: `
         <ul>
-      <li> I worked on  <a  class="inline-link" href="https://leerecs.com/">Leerecs</a> a 360 music service provider platiform  to Independent Creators: Recording, Producing, Arranging, Promotion and Publishing… among others. </li>
-      <li>On this Project I took responsibility for understanding and maintaining existing codebase while working independently</li>
-      <li>I successfully managed the project's development and maintenance, demonstrating resilience and determination to meet project goals using  PHP and React</li>
+      <li> Inherited and independently managed existing  <a  class="inline-link" href="https://leerecs.com/">Leerecs</a> Codebase (50K lines + of code)  </li>
+      <li>Redesigned the Company Website, Enhancing Modernity and Improving Website Speed by Approximately 10%, Including Optimization for Web Core Vitals</li>
+      <li>Implemented new features, including a music section, allowing users to upload music. This initiative significantly increased site engagement and interactivity.</li>
+      <li>I achieved Proficiency in Understanding Existing Codebase and Rapid Feature Delivery.</li>
     </ul>
         `,
       },
@@ -28,11 +29,10 @@
         },
         html: `
         <ul>
-      <li> Assisted in the development of a recruiting software at SnapBrillia </li>
-      <li>I worked as QA automation and also fixed bugs. This experience not only strengthened my coding skills but also instilled in me a deep understanding of the importance of writing optimized and efficient code</li>
-      <ul>
+      <li> Collaborated closely with cross-functional teams, including developers and product managers, to address and resolve approximately 50 issues per month, resulting in continuous improvement of product quality.</li>
+      <li>Developed and executed more than 60 detailed test plans, test cases, and test scripts, identifying and documenting an average of 20 defects per week for resolution.</li>
       <li>
-      This experience also significantly enhanced my teamwork and collaboration skills as I actively participated in team meetings, brainstorming sessions, and collaborative problem-solving activities
+      My tenure as a QA Engineer  has instilled in me a keen attention to detail, even as I building software rather than testing it, emphasizing the importance of quality assurance practices in my current projects.
       </li>
       </ul>
     </ul>
@@ -49,14 +49,11 @@
         },
         html: `
         <ul>
-      <li> Joining one of the best dev groups in Rwanda skyrocketed my experience as a developer we cool projects that attracted both the attention of their user and the media </li>
-      <li>during my time on Imperium I was in charge of these tasks:</li>
-      <ol class="skills-list">
-      <li>Converting design from Figma to live apps using React </li>
-      <li>Coding app backend using NodeJs and express</li>
-      <li>reviewing code and ensuring clean pull requests </li>
-      <li>Supporting on the different tasks that would come from the clients </li>
-      </ol>
+      <li> Led creation of <a  class="inline-link" href="https://ubusizi.vercel.app/"> Ubusizi platform </a> , achieving 90%+ web core vitals and boosting engagement by 30%. </li>
+      <li>Implemented 45% of features on Ubusizi.com, showcasing proficiency in software development.</li>
+      <li>Offered valuable insights and guidance to fellow developers on implementation strategies and best practices, contributing to an approximate 25% reduction in average bug count per release. </li>
+      <li>Ensured codebase optimization and feature functionality through comprehensive testing and quality assurance checks, leading to an approximate 70% reduction in post-release defects.</li>
+      <li>Developed strong collaborative skills, fostering a cohesive and productive team environment.</li>
     </ul>
         `,
       },

@@ -8,7 +8,7 @@ export const featured=[
             cover:"/images/leerecs.png",
             cta:null
           },
-          html:`Worked as a full-stack developer independently to maintain the existing codebase of Leerecs and implemented and redesigned features on it. This reduced my fear of coding and gave me the ability to jump into any project and deliver tasks in the shortest time possible.`
+          html:`Took over and autonomously oversaw the existing Leerecs.com codebase (comprising over 50K lines of code). Revamped the company website, enhancing its contemporary appeal and enhancing website speed by roughly 10%, with a focus on optimizing for Web Core Vitals. Introduced novel functionalities, such as a music section enabling users to upload music, resulting in a notable surge in site engagement and interaction. Demonstrated expertise in comprehending the existing codebase and swiftly delivering new features.`
     },
     {
         frontmatter:{
@@ -19,7 +19,7 @@ export const featured=[
             cover:"/images/ubusizi.png",
             cta:null
           },
-          html:`On this project, I strengthened my React and Node.js skills by working on both backend and frontend alongside two other developers. This experience not only improved my technical abilities but also enhanced my teamwork and communication skills.`
+          html:`Directed the development of the Ubusizi platform, surpassing 90% in web core vitals and elevating user engagement by 30%. Executed the implementation of 45% of Ubusizi.com's features, showcasing adeptness in software development. Provided valuable insights and guidance to team members, resulting in a 25% decrease in average bug count per release. Ensured optimal codebase performance and feature functionality through thorough testing, culminating in a substantial 70% decrease in post-release defects. Cultivated effective collaborative skills, fostering a cohesive and productive team dynamic.`
     },
 
     {
@@ -31,6 +31,6 @@ export const featured=[
             cover:"/images/mojito.png",
             cta:null
           },
-          html:`On this project, I got familiar with third party api like Google ads api, Facebook marketing api, shopify admin api and also this project helped me strengthen DSA skills too .`
+          html:`Transformed the Mojito project from 20% completion to full implementation, leveraging various ads APIs to develop a website offering comprehensive insights into social media advertising. Ensured optimal performance, surpassing 90%, while prioritizing Web Core Vitals. Additionally, enhanced user experience through refined design elements.`
     }
 ]

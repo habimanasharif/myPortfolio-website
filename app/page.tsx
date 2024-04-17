@@ -20,7 +20,7 @@ const Projects = dynamic(() => import('../components/projects'), {
 const Contact = dynamic(() => import('../components/contact'), {
   ssr: false,
 })
-const RecentBlogs = dynamic(() => import('../components/recentBlogs'), {
+const RecentBlogs = dynamic(() => import('../components/blogs'), {
   ssr: false,
 })
 
@@ -45,7 +45,7 @@ export default function Page() {
      <Jobs/> 
      <Featured/>
      <Projects/>
-     {/* <RecentBlogs/> */}
+     <RecentBlogs/>
       <Contact/>
     </StyledMainContainer>
       

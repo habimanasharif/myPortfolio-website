@@ -5,7 +5,7 @@
           title: "Senior Software Engineer",
           company: "Idealiner",
           location: "United States - Remote",
-          range: "July 2022 - jan 2024",
+          range: "July 2022 - Present",
           url: "https://www.idealiner.com",
         },
         html: `
@@ -15,6 +15,19 @@
       <li>Implemented new features, including a music section, allowing users to upload music. This initiative significantly increased site engagement and interactivity.</li>
       <li>I achieved Proficiency in Understanding Existing Codebase and Rapid Feature Delivery.</li>
     </ul>
+        `,
+      },
+      {
+        frontmatter: {
+          date: "2017-12-21",
+          title: "Freelance Software Developer",
+          company: "Self Employed",
+          location: "Kigali, Rwanda ",
+          range: " 2020 - Present ",
+          url: "https://www.upwork.com/freelancers/~01db2fb9f59f2cf681?viewMode=1",
+        },
+        html: `
+        As a dedicated and proactive freelance developer, I've delivered high-quality projects since 2020. My expertise spans across JavaScript frameworks and Java, working on both frontend, backend, and DevOps tasks. I've successfully started projects from scratch and taken over existing codebases, ensuring high-speed and integrity in my work. I thrive in helping clients expand their project ideas, always aiming to deliver functional and robust solutions in the shortest time possible.
         `,
       },
 

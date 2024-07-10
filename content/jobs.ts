@@ -20,8 +20,8 @@
       {
         frontmatter: {
           date: "2017-12-21",
-          title: "Freelance Software Developer",
-          company: "Self Employed",
+          title: " Software Developer",
+          company: "Freelance",
           location: "Kigali, Rwanda ",
           range: " 2020 - Present ",
           url: "https://www.upwork.com/freelancers/~01db2fb9f59f2cf681?viewMode=1",

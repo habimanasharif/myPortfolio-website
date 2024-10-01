@@ -1,6 +1,17 @@
 export const otherProjects=[
     {
         frontmatter:{
+            title:'Simple Shell',
+            tech:["C","Shell"],
+            github: 'https://github.com/habimanasharif/simple_shell',
+            external:null,
+            cover:null,
+            cta:null
+          },
+          html:`This is a command line interpreter, or shell, in the tradition of the first Unix shell written by Ken Thompson in 1971. This was made as a project for ALX Holberton School. In this project we apply the knowledge that we have learned in C programming language.`
+    },
+    {
+        frontmatter:{
             title:'MoodBeat',
             tech:["React","Typescript","Audio api"],
             github: 'https://github.com/habimanasharif/MoodBeat',
